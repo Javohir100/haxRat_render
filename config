@@ -1,0 +1,7 @@
+sudo apt-get install openjdk-8-jrk
+java -version -     [openjdk version "1.8.0_xxx”]
+сurl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
+cd haxRat/server
+npm install
+npm test
